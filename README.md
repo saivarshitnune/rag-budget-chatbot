@@ -25,7 +25,7 @@ Ensure you have the following installed:
 1. Ensure all dependencies are installed.
 2. Run the Flask app using:
    ```sh
-   python app.py
+   uvicorn app:app --reload
    ```
 3. The app should now be accessible at `http://127.0.0.1:5000/` in your browser.
 
