@@ -20,8 +20,8 @@ app.add_middleware(
 )
 
 # Google Gemini embeddings & LLM
-embedding_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001", api_key="AIzaSyB4U_WEGXADoGvetHg4cf4tMrBTDBVALqQ")
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.7, api_key="AIzaSyB4U_WEGXADoGvetHg4cf4tMrBTDBVALqQ")
+embedding_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001", api_key="")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.7, api_key="")
 
 # pdf_loader = PyPDFLoader(r"C:\Users\vahin\OneDrive\Desktop\rag-budget\budget_speech.pdf")
 # documents = pdf_loader.load()
