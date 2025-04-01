@@ -6,4 +6,4 @@ faiss-cpu
 google-generativeai
 pypdf2
 pymupdf
-streamlit
+sentence_transformers
