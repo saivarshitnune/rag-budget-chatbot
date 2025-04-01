@@ -2,8 +2,7 @@ langchain-community
 langchain-chroma
 langchain-google-genai
 pypdf
-# faiss-cpu
 google-generativeai
 pypdf2
 pymupdf
-sentence_transformers
+sentence-transformers
