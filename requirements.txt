@@ -2,7 +2,7 @@ langchain-community
 langchain-chroma
 langchain-google-genai
 pypdf
-faiss-cpu
+# faiss-cpu
 google-generativeai
 pypdf2
 pymupdf
